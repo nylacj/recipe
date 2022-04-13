@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		h1{ 
+			text-align: center;
+			font-family: 'Abril Fatface', cursive;
+			font-size: 300%;
+		 }
+
+		 h2{
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;
+		 }
+
+		 h3{
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;
+			font-size: 20px;
+		 }
+
+		 h4 {
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;	
+			font-size: 20px;
+		 }
+
+		 h5{
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;
+			font-size: 40px;
+			color: #DEC4A1;	
+		 }
+
+		 h6{
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;
+			font-size: 50px;
+		 }
+
+		 ul{
+		 	font-family: 'Shadows Into Light Two', cursive;
+		 	text-align: left;
+		 }
+		 .row-one{
+		 	display: flex;
+			justify-content: space-evenly;
+			text-align: center;
+		 }
+
+		 .htmdcbox{
+		 	background-color: #EDCF8E;
+		 	width: 100%;
+			align-content: center;
+		 }
+
+		 .row-two{
+		 	display: flex;
+			justify-content: space-evenly;
+			background-image: url(whiteclouds.jpg);	
+			padding-top: 150px;
+			padding-bottom: 150px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+
+		 }
+
+		 .introdalgona{
+		 	display: flex;
+		 	width: 80%;
+			height: 80%;
+			padding: 1%;
+			margin: 1%;
+		 }
+
+		 .introtext{
+			background-color: #EDCF8E;
+			padding: 2%;
+			margin: 9%;
+			text-align: center;
+			width: 100%;
+			height: 100%;
+		}
+
+		p{
+			font-family: 'Shadows Into Light Two', cursive;
+			text-align: center;
+			margin-right: 2%;
+			margin-left: 2%;
+			font-size: 125%;
+		}
+
+		.row-three {
+			display: flex;
+			align-items: stretch;
+			justify-content: space-evenly;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			background-color: #DEC4A1;
+		}
+
+		.ingredients {
+			background-color: #EDCF8E;
+			padding: 2%;
+			margin: 2%;
+			text-align: left;
+			width: 30%;
+		}
+
+		.utensils {
+			background-color: #EDCF8E;
+			padding: 2%;
+			margin: 2%;
+			text-align: right;
+			width: 30%;
+		}
+
+		.row-four {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			background-size: cover;
+			background-attachment: fixed;
+			background-color: ghostwhite;
+		}
+
+		.allergyinfo{
+			padding: 0;
+			margin: 0;
+		}
+
+		.allergyinfoparagraph{
+			font-size: 25px;
+			font-family: 'Shadows Into Light Two', cursive;
+			text-align: center;
+			color: #DEC4A1;
+		}
+
+		.row-five{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.step1title{
+			margin-top: 55px;
+			margin-bottom: 55px;
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;
+			font-size: 50px;
+		}
+
+		.stepone{
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			padding: 0px;
+			margin: 0px;
+			align-items: center;
+		}
+		.stepone img {
+			width: 40%;
+			border: 8px #EDCF8E double;
+		}
+
+		.steponetext{
+			text-align: center;	
+			background-color: #EDCF8E;
+			width: 30%;
+			padding: 2%;
+			border: 8px #D0ABA0 double;
+		}
+
+		.row-six{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		h6{
+			margin-top: 200px;
+			margin-bottom: 55px;
+		 	text-align: center;
+			font-family: 'Abril Fatface', cursive;
+			font-size: 50px;
+		}
+
+		.steptwo{
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			padding: 0px;
+			margin: 0px;
+			align-items: center;
+		}
+
+		.steptwo img{
+			width: 40%;
+			border: 8px #EDCF8E double;
+		}
+
+		.steptwotext{
+			text-align: center;	
+			background-color: #EDCF8E;
+			width: 30%;
+			padding: 2%;
+			border: 8px #D0ABA0 double;
+		}
+
+		.row-seven{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.stepthree{
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			padding: 0px;
+			margin: 0px;
+			align-items: center;
+		}
+
+		.stepthree img{
+			width: 40%;
+			border: 8px #EDCF8E double;
+		}
+
+		.stepthreetext{
+			text-align: center;	
+			background-color: #EDCF8E;
+			width: 30%;
+			padding: 2%;
+			border: 8px #D0ABA0 double;
+		}
+
+		.row-eight{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.stepfour{
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			padding: 0px;
+			margin: 0px;
+			align-items: center;
+		}
+
+		.stepfour img{
+			width: 40%;
+			border: 8px #EDCF8E double;
+		}
+
+		.stepfourtext{
+			text-align: center;	
+			background-color: #EDCF8E;
+			width: 30%;
+			padding: 2%;
+			border: 8px #D0ABA0 double;
+		}
+
+		.row-nine{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.stepfive{
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			padding: 0px;
+			margin: 0px;
+			align-items: center;
+		}
+
+		.stepfive img{
+			width: 40%;
+			border: 8px #EDCF8E double;
+		}
+
+		.stepfivetext{
+			text-align: center;	
+			background-color: #EDCF8E;
+			width: 30%;
+			padding: 2%;
+			border: 8px #D0ABA0 double;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<section class="row-one">
+			<div class="htmdcbox">
+				<h1>How to Make Dalgona Coffee</h1>
+			</div>
+		</section>
+
+		<section class="row-two">
+				<div class="introdalgona">
+					<img src="introdalgonapic.JPG" width="100%">
+				</div>
+				<div class="introtext">
+					<h2>Why I Chose Dalgona Coffee:</h2>
+						<p>
+							I chose this drink because whipped coffee is an easy drink to make that is inexpensive. It is delicious and has a strong flavor to it. Also, it is quick to make and can be paired with any type of milk. This drink became popular on Tiktok, so many people have made it and you can too! 
+						</p>
+				</div>				
+		</section>
+
+		<section class="row-three">
+				<div class="ingredients">
+					<h3>Ingredients:</h3>
+						<ul>
+							<li>Milk (of any kind)</li>
+							<li>Coffee grounds</li>
+							<li>Sugar</li>
+							<li>Hot water</li>
+							<li>(Optional) Ice</li>
+						</ul>
+				</div>
+
+				<div class ="utensils">
+					<h4>Utensils:</h4>
+						<ul>
+							<li>Tablespoon measurer</li>
+							<li>Bowl</li>
+							<li>Mixer (electric one is recommended)</li>
+							<li>Cup</li>
+							<li>Spatula or Spoon</li>
+							<li>Straw</li>
+						</ul>
+		</section>
+
+		<section class = "row-four">
+			<div class="allergyinfo">
+				<h5><b>Allergy Info:</b></h5>
+					<ul class="allergyinfoparagraph">
+						<li> <b>Dairy milk is included in this recipe. For those who are lactose intolerant, you can use milk alternatives.</b> </li>
+						<li> <b>Coffee grounds are used in this recipe. You may use alternatives, but the dalgona may not fluff up as much.</b> </li>
+
+					</ul>
+			</div>
+		</section>
+
+		<section class = "row-five">
+			<div>
+				<h6 class="step1title">
+				Step 1:
+				</h6>	
+			</div>
+			<div class="stepone">
+				<img src="steponepic.jpg">
+					<div class="steponetext">
+						<p> <b>In a bowl, place 2 tablespoons of coffee grounds, sugar, and hot water.</b></p>
+					</div>
+			</div>
+		</section>
+		
+		<section class = "row-six">
+				<h6>
+				Step 2:
+				</h6>	
+			<div class="steptwo">
+				<img src="steptwopic.jpg">
+					<div class="steptwotext">
+						<p> <b>Mix the ingredients with a handheld mixer until the dalgona is of a light-medium brown color. It should be fluffy.</b></p>
+					</div>
+			</div>	
+		</section>
+
+
+		<section class = "row-seven">
+				<h6>
+				Step 3:
+				</h6>	
+
+			<div class="stepthree">
+
+				<img src="stepthreepic.jpg">
+				<div class="stepthreetext">
+					<p> <b>Pour the milk into the glass cup. Any amount of milk is okay, but 8-12 oz is recommended. You can use ice if you want to. </b></p>
+				</div>
+			</div>	
+		</section>
+
+		<section class = "row-eight">
+				<h6>
+				Step 4:
+				</h6>	
+			<div class="stepfour">
+				<img src="stepfourpic.jpg">
+				<div class="stepfourtext">
+					<p> <b>With a spatula or spoon, scoop the dalgona out of the bowl into the glass of milk.</b></p>
+				</div>
+			</div>	
+		</section>
+
+		<section class = "row-nine">
+				<h6>
+				Step 5:
+				</h6>	
+			<div class="stepfive">
+				<img src="stepfivepic.jpg">
+				<div class="stepfivetext">
+					<p><b>Drink with a straw and enjoy!</b></p>
+				</div>
+			</div>	
+		</section>
+
+
+	</div>
+</body>
+</html>
